@@ -5,5 +5,5 @@ import { Game } from 'containers';
 const root = document.getElementById('root');
 
 render(
-    <Game boardSize={11} playerSize={25} />
+    <Game boardSize={15} playerSize={25} />
 , root);
